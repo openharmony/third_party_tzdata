@@ -1,0 +1,10 @@
+[
+  {
+    "Name": "IANA Time Zone Database",
+    "License": "BSD 3-Clause License",
+    "License File": "LICENSE",
+    "Version Number": "2021a",
+    "Upstream URL": "https://data.iana.org/time-zones/releases/tzcode2021a.tar.gz, https://data.iana.org/time-zones/releases/tzdata2021a.tar.gz",
+    "Description": "The Time Zone Database (often called tz or zoneinfo) contains code and data that represent the history of local time for many representative locations around the globe."
+  }
+]
