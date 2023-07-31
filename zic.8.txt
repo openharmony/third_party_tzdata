@@ -8,8 +8,8 @@ SYNOPSIS
 
 DESCRIPTION
        The zic program reads text from the file(s) named on the command line
-       and creates the time conversion information files specified in this
-       input.  If a filename is "-", standard input is read.
+       and creates the timezone information format (TZif) files specified in
+       this input.  If a filename is "-", standard input is read.
 
 OPTIONS
        --version
@@ -61,17 +61,19 @@ OPTIONS
               If timezone is -, any already-existing link is removed.
 
        -r [@lo][/@hi]
-              Reduce the size of output files by limiting their applicability
-              to timestamps in the range from lo (inclusive) to hi
-              (exclusive), where lo and hi are possibly-signed decimal counts
-              of seconds since the Epoch (1970-01-01 00:00:00 UTC).  Omitted
-              counts default to extreme values.  For example, "zic -r @0"
-              omits data intended for negative timestamps (i.e., before the
-              Epoch), and "zic -r @0/@2147483648" outputs data intended only
-              for nonnegative timestamps that fit into 31-bit signed integers.
-              On platforms with GNU date, "zic -r @$(date +%s)" omits data
-              intended for past timestamps.  Also see the -b slim option for
-              another way to shrink output size.
+              Limit the applicability of output files to timestamps in the
+              range from lo (inclusive) to hi (exclusive), where lo and hi are
+              possibly-signed decimal counts of seconds since the Epoch
+              (1970-01-01 00:00:00 UTC).  Omitted counts default to extreme
+              values.  The output files use UT offset 0 and abbreviation "-00"
+              in place of the omitted timestamp data; this typically reduces
+              the files' sizes.  For example, "zic -r @0" omits data intended
+              for negative timestamps (i.e., before the Epoch), and "zic -r
+              @0/@2147483648" outputs data intended only for nonnegative
+              timestamps that fit into 31-bit signed integers.  On platforms
+              with GNU date, "zic -r @$(date +%s)" omits data intended for
+              past timestamps.  Also see the -b slim option for another way to
+              shrink output size.
 
        -t file
               When creating local time information, put the configuration link
@@ -114,6 +116,11 @@ OPTIONS
               compatibility issues affect only timestamps before 1970 or after
               the start of 2038.
 
+              The output contains a truncated leap second table, which can
+              cause some older TZif readers to misbehave.  This can occur if
+              the -L option is used, and either an Expires line is present or
+              the -r option is also used.
+
               The output file contains more than 1200 transitions, which may
               be mishandled by some clients.  The current reference client
               supports at most 2000 transitions; pre-2014 versions of the
@@ -135,13 +142,13 @@ FILES
        zero or more lines, each ending in a newline byte and containing at
        most 511 bytes, and without any NUL bytes.  The input text's encoding
        is typically UTF-8 or ASCII; it should have a unibyte representation
-       for the POSIX Portable Character Set (PPCS) <http://pubs.opengroup.org/
-       onlinepubs/9699919799/basedefs/V1_chap06.html> and the encoding's non-
-       unibyte characters should consist entirely of non-PPCS bytes.  Non-PPCS
-       characters typically occur only in comments: although output file names
-       and time zone abbreviations can contain nearly any character, other
-       software will work better if these are limited to the restricted syntax
-       described under the -v option.
+       for the POSIX Portable Character Set (PPCS) <https://pubs.opengroup
+       .org/onlinepubs/9699919799/basedefs/V1_chap06.html> and the encoding's
+       non-unibyte characters should consist entirely of non-PPCS bytes.  Non-
+       PPCS characters typically occur only in comments: although output file
+       names and time zone abbreviations can contain nearly any character,
+       other software will work better if these are limited to the restricted
+       syntax described under the -v option.
 
        Input lines are made up of fields.  Fields are separated from one
        another by one or more white space characters.  The white space
@@ -289,11 +296,11 @@ FILES
 
        RULES The name of the rules that apply in the timezone or,
              alternatively, a field in the same format as a rule-line SAVE
-             column, giving of the amount of time to be added to local
-             standard time effect, and whether the resulting time is standard
-             or daylight saving.  If this field is - then standard time always
-             applies.  When an amount of time is given, only the sum of
-             standard time and this amount matters.
+             column, giving the amount of time to be added to local standard
+             time and whether the resulting time is standard or daylight
+             saving.  If this field is - then standard time always applies.
+             When an amount of time is given, only the sum of standard time
+             and this amount matters.
 
        FORMAT
              The format for time zone abbreviations.  The pair of characters
@@ -305,7 +312,9 @@ FILES
              seconds east (+) or west (-) of UT.  Alternatively, a slash (/)
              separates standard and daylight abbreviations.  To conform to
              POSIX, a time zone abbreviation should contain only alphanumeric
-             ASCII characters, "+" and "-".
+             ASCII characters, "+" and "-".  By convention, the time zone
+             abbreviation "-00" is a placeholder that means local time is
+             unspecified.
 
        UNTIL The time at which the UT offset or the rule(s) change for a
              location.  It takes the form of one to four fields YEAR [MONTH
@@ -390,6 +399,15 @@ FILES
        second time given by the other fields should be interpreted as local
        (wall clock) time.
 
+       Rolling leap seconds were implemented back when it was not clear
+       whether common practice was rolling or stationary, with concerns that
+       one would see Times Square ball drops where there'd be a "3... 2...
+       1... leap... Happy New Year" countdown, placing the leap second at
+       midnight New York time rather than midnight UTC.  However, this
+       countdown style does not seem to have caught on, which means rolling
+       leap seconds are not used in practice; also, they are not supported if
+       the -r option is used.
+
        The expiration line, if present, has the form:
 
             Expires  YEAR  MONTH  DAY  HH:MM:SS
@@ -399,13 +417,7 @@ FILES
             Expires  2020  Dec    28   00:00:00
 
        The YEAR, MONTH, DAY, and HH:MM:SS fields give the expiration timestamp
-       in UTC for the leap second table; zic outputs this expiration timestamp
-       by truncating the end of the output file to the timestamp.  If there is
-       no expiration line, zic also accepts a comment "#expires E ..." where E
-       is the expiration timestamp as a decimal integer count of seconds since
-       the Epoch, not counting leap seconds.  However, the "#expires" comment
-       is an obsolescent feature, and the leap second file should use an
-       expiration line instead of relying on a comment.
+       in UTC for the leap second table;
 
 EXTENDED EXAMPLE
        Here is an extended example of zic input, intended to illustrate many
