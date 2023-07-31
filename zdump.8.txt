@@ -21,18 +21,18 @@ OPTIONS
               timezone.  See "INTERVAL FORMAT" below.
 
        -v     Output a verbose description of time intervals.  For each
-              timezone on the command line, print the time at the lowest
-              possible time value, the time one day after the lowest possible
-              time value, the times both one second before and exactly at each
-              detected time discontinuity, the time at one day less than the
-              highest possible time value, and the time at the highest
-              possible time value.  Each line is followed by isdst=D where D
-              is positive, zero, or negative depending on whether the given
-              time is daylight saving time, standard time, or an unknown time
-              type, respectively.  Each line is also followed by gmtoff=N if
-              the given local time is known to be N seconds east of Greenwich.
+              timezone on the command line, print the times at the two extreme
+              time values, the times (if present) at and just beyond the
+              boundaries of years that localtime(3) and gmtime(3) can
+              represent, and the times both one second before and exactly at
+              each detected time discontinuity.  Each line is followed by
+              isdst=D where D is positive, zero, or negative depending on
+              whether the given time is daylight saving time, standard time,
+              or an unknown time type, respectively.  Each line is also
+              followed by gmtoff=N if the given local time is known to be N
+              seconds east of Greenwich.
 
-       -V     Like -v, except omit the times relative to the extreme time
+       -V     Like -v, except omit output concerning extreme time and year
               values.  This generates output that is easier to compare to that
               of implementations with different time representations.
 
@@ -41,8 +41,8 @@ OPTIONS
               computed using the proleptic Gregorian calendar with year 0 and
               with Universal Time (UT) ignoring leap seconds.  Cutoffs are at
               the start of each year, where the lower-bound timestamp is
-              exclusive and the upper is inclusive; for example, -c 1970,2070
-              selects transitions after 1970-01-01 00:00:00 UTC and on or
+              inclusive and the upper is exclusive; for example, -c 1970,2070
+              selects transitions on or after 1970-01-01 00:00:00 UTC and
               before 2070-01-01 00:00:00 UTC.  The default cutoff is
               -500,2500.
 
@@ -50,8 +50,8 @@ OPTIONS
               Cut off interval output at the given time(s), given in decimal
               seconds since 1970-01-01 00:00:00 Coordinated Universal Time
               (UTC).  The timezone determines whether the count includes leap
-              seconds.  As with -c, the cutoff's lower bound is exclusive and
-              its upper bound is inclusive.
+              seconds.  As with -c, the cutoff's lower bound is inclusive and
+              its upper bound is exclusive.
 
 INTERVAL FORMAT
        The interval format is a compact text representation that is intended
@@ -128,7 +128,7 @@ INTERVAL FORMAT
 
 LIMITATIONS
        Time discontinuities are found by sampling the results returned by
-       localtime at twelve-hour intervals.  This works in all real-world
+       localtime(3) at twelve-hour intervals.  This works in all real-world
        cases; one can construct artificial time zones for which this fails.
 
        In the -v and -V output, "UT" denotes the value returned by gmtime(3),
