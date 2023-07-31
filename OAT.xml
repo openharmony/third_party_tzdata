@@ -33,6 +33,9 @@
         <filefilterlist>
             <filefilter name="defaultFilter" desc="Files not to check">
             </filefilter>
+            <filefilter name="binaryFileTypePolicyFilter" desc="binary file filter policy">
+                <filteritem type="filepath" name="rawfile/tzdata-2022a-11.oe2203sp1.src.rpm" desc="openEuler raw file"/>
+            </filefilter>
             <filefilter name="defaultPolicyFilter" desc="Filters for compatibility, license header policies">      
                 <filteritem type="filepath" name="date.1" desc="no license header"/>
                 <filteritem type="filepath" name=".*.3" desc="no license header"/>
