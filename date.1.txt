@@ -1,4 +1,4 @@
-DATE(1)                     General Commands Manual                    DATE(1)
+date(1)                     General Commands Manual                    date(1)
 
 NAME
        date - show and set date and time
@@ -98,10 +98,11 @@ FILES
        /etc/localtime                  local timezone file
        /usr/lib/locale/L/LC_TIME       description of time locale L
        /usr/share/zoneinfo             timezone information directory
-       /usr/share/zoneinfo/posixrules  used with POSIX-style TZ's
+       /usr/share/zoneinfo/posixrules  default DST rules (obsolete,
+                                       and can cause bugs if present)
        /usr/share/zoneinfo/GMT         for UTC leap seconds
 
        If /usr/share/zoneinfo/GMT is absent, UTC leap seconds are loaded from
        /usr/share/zoneinfo/posixrules.
 
-                                                                       DATE(1)
+Time Zone Database                                                     date(1)
