@@ -3,7 +3,7 @@
     "Name": "openEuler:tzdata",
     "License": "BSD 3-Clause License",
     "License File": "LICENSE",
-    "Version Number": "2022a",
+    "Version Number": "2022a-11.oe2203sp1",
     "Upstream URL": "https://repo.openeuler.org/openEuler-22.03-LTS-SP1/source/Packages/tzdata-2022a-11.oe2203sp1.src.rpm",
     "Description": "The Time Zone Database (often called tz or zoneinfo) contains code and data that represent the history of local time for many representative locations around the globe."
   }
