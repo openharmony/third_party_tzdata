@@ -24,7 +24,7 @@
         },
         "build": {
             "sub_component": [
-                "//third_party/tzdata/data:zoneinfo",
+                "//third_party/tzdata/data:zoneinfo"
             ],
             "inner_kits": [],
             "test": []
