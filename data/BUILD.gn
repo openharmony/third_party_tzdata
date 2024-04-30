@@ -1,0 +1,3567 @@
+# Copyright (c) 2021-2022 Huawei Device Co., Ltd.
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import("//build/ohos.gni")
+
+ohos_prebuilt_etc("Africa/Abidjan") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Abidjan"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Accra") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Accra"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Addis_Ababa") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Addis_Ababa"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Algiers") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Algiers"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Asmara") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Asmara"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Bamako") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Bamako"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Bangui") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Bangui"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Banjul") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Banjul"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Bissau") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Bissau"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Blantyre") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Blantyre"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Brazzaville") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Brazzaville"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Bujumbura") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Bujumbura"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Cairo") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Cairo"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Casablanca") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Casablanca"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Ceuta") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Ceuta"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Conakry") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Conakry"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Dakar") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Dakar"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Dar_es_Salaam") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Dar_es_Salaam"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Djibouti") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Djibouti"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Douala") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Douala"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/El_Aaiun") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/El_Aaiun"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Freetown") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Freetown"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Gaborone") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Gaborone"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Harare") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Harare"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Johannesburg") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Johannesburg"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Juba") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Juba"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Kampala") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Kampala"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Khartoum") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Khartoum"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Kigali") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Kigali"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Kinshasa") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Kinshasa"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Lagos") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Lagos"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Libreville") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Libreville"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Lome") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Lome"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Luanda") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Luanda"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Lubumbashi") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Lubumbashi"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Lusaka") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Lusaka"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Malabo") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Malabo"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Maputo") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Maputo"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Maseru") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Maseru"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Mbabane") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Mbabane"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Mogadishu") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Mogadishu"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Monrovia") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Monrovia"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Nairobi") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Nairobi"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Ndjamena") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Ndjamena"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Niamey") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Niamey"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Nouakchott") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Nouakchott"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Ouagadougou") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Ouagadougou"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Porto-Novo") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Porto-Novo"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Sao_Tome") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Sao_Tome"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Tripoli") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Tripoli"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Tunis") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Tunis"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Africa/Windhoek") {
+  source = "//third_party/tzdata/data/prebuild/posix/Africa/Windhoek"
+  module_install_dir = "etc/zoneinfo/Africa"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Adak") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Adak"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Anchorage") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Anchorage"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Anguilla") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Anguilla"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Antigua") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Antigua"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Araguaina") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Araguaina"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Argentina/Buenos_Aires") {
+  source =
+      "//third_party/tzdata/data/prebuild/posix/America/Argentina/Buenos_Aires"
+  module_install_dir = "etc/zoneinfo/America/Argentina"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Argentina/Catamarca") {
+  source =
+      "//third_party/tzdata/data/prebuild/posix/America/Argentina/Catamarca"
+  module_install_dir = "etc/zoneinfo/America/Argentina"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Argentina/Cordoba") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Argentina/Cordoba"
+  module_install_dir = "etc/zoneinfo/America/Argentina"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Argentina/Jujuy") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Argentina/Jujuy"
+  module_install_dir = "etc/zoneinfo/America/Argentina"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Argentina/La_Rioja") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Argentina/La_Rioja"
+  module_install_dir = "etc/zoneinfo/America/Argentina"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Argentina/Mendoza") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Argentina/Mendoza"
+  module_install_dir = "etc/zoneinfo/America/Argentina"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Argentina/Rio_Gallegos") {
+  source =
+      "//third_party/tzdata/data/prebuild/posix/America/Argentina/Rio_Gallegos"
+  module_install_dir = "etc/zoneinfo/America/Argentina"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Argentina/Salta") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Argentina/Salta"
+  module_install_dir = "etc/zoneinfo/America/Argentina"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Argentina/San_Juan") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Argentina/San_Juan"
+  module_install_dir = "etc/zoneinfo/America/Argentina"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Argentina/San_Luis") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Argentina/San_Luis"
+  module_install_dir = "etc/zoneinfo/America/Argentina"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Argentina/Tucuman") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Argentina/Tucuman"
+  module_install_dir = "etc/zoneinfo/America/Argentina"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Argentina/Ushuaia") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Argentina/Ushuaia"
+  module_install_dir = "etc/zoneinfo/America/Argentina"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Aruba") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Aruba"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Asuncion") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Asuncion"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Atikokan") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Atikokan"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Bahia") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Bahia"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Bahia_Banderas") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Bahia_Banderas"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Barbados") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Barbados"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Belem") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Belem"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Belize") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Belize"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Blanc-Sablon") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Blanc-Sablon"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Boa_Vista") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Boa_Vista"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Bogota") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Bogota"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Boise") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Boise"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Cambridge_Bay") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Cambridge_Bay"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Campo_Grande") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Campo_Grande"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Cancun") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Cancun"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Caracas") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Caracas"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Cayenne") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Cayenne"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Cayman") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Cayman"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Chicago") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Chicago"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Chihuahua") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Chihuahua"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Costa_Rica") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Costa_Rica"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Creston") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Creston"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Cuiaba") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Cuiaba"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Curacao") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Curacao"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Danmarkshavn") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Danmarkshavn"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Dawson") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Dawson"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Dawson_Creek") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Dawson_Creek"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Denver") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Denver"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Detroit") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Detroit"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Dominica") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Dominica"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Edmonton") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Edmonton"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Eirunepe") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Eirunepe"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/El_Salvador") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/El_Salvador"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Fort_Nelson") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Fort_Nelson"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Fortaleza") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Fortaleza"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Glace_Bay") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Glace_Bay"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Godthab") {
+  source = "./prebuild/posix/America/Godthab"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Goose_Bay") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Goose_Bay"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Grand_Turk") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Grand_Turk"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Grenada") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Grenada"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Guadeloupe") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Guadeloupe"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Guatemala") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Guatemala"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Guayaquil") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Guayaquil"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Guyana") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Guyana"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Halifax") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Halifax"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Havana") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Havana"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Hermosillo") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Hermosillo"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Indiana/Indianapolis") {
+  source =
+      "//third_party/tzdata/data/prebuild/posix/America/Indiana/Indianapolis"
+  module_install_dir = "etc/zoneinfo/America/Indiana"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Indiana/Knox") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Indiana/Knox"
+  module_install_dir = "etc/zoneinfo/America/Indiana"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Indiana/Marengo") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Indiana/Marengo"
+  module_install_dir = "etc/zoneinfo/America/Indiana"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Indiana/Petersburg") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Indiana/Petersburg"
+  module_install_dir = "etc/zoneinfo/America/Indiana"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Indiana/Tell_City") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Indiana/Tell_City"
+  module_install_dir = "etc/zoneinfo/America/Indiana"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Indiana/Vevay") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Indiana/Vevay"
+  module_install_dir = "etc/zoneinfo/America/Indiana"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Indiana/Vincennes") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Indiana/Vincennes"
+  module_install_dir = "etc/zoneinfo/America/Indiana"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Indiana/Winamac") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Indiana/Winamac"
+  module_install_dir = "etc/zoneinfo/America/Indiana"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Inuvik") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Inuvik"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Iqaluit") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Iqaluit"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Jamaica") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Jamaica"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Juneau") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Juneau"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Kentucky/Louisville") {
+  source =
+      "//third_party/tzdata/data/prebuild/posix/America/Kentucky/Louisville"
+  module_install_dir = "etc/zoneinfo/America/Kentucky"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Kentucky/Monticello") {
+  source =
+      "//third_party/tzdata/data/prebuild/posix/America/Kentucky/Monticello"
+  module_install_dir = "etc/zoneinfo/America/Kentucky"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Kralendijk") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Kralendijk"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/La_Paz") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/La_Paz"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Lima") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Lima"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Los_Angeles") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Los_Angeles"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Louisville") {
+  source = "./prebuild/posix/America/Louisville"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Lower_Princes") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Lower_Princes"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Maceio") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Maceio"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Managua") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Managua"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Manaus") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Manaus"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Marigot") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Marigot"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Martinique") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Martinique"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Matamoros") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Matamoros"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Mazatlan") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Mazatlan"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Menominee") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Menominee"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Merida") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Merida"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Metlakatla") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Metlakatla"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Mexico_City") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Mexico_City"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Miquelon") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Miquelon"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Moncton") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Moncton"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Monterrey") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Monterrey"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Montevideo") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Montevideo"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Montserrat") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Montserrat"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Nassau") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Nassau"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/New_York") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/New_York"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Nipigon") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Nipigon"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Nome") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Nome"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Noronha") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Noronha"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/North_Dakota/Beulah") {
+  source =
+      "//third_party/tzdata/data/prebuild/posix/America/North_Dakota/Beulah"
+  module_install_dir = "etc/zoneinfo/America/North_Dakota"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/North_Dakota/Center") {
+  source =
+      "//third_party/tzdata/data/prebuild/posix/America/North_Dakota/Center"
+  module_install_dir = "etc/zoneinfo/America/North_Dakota"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/North_Dakota/New_Salem") {
+  source =
+      "//third_party/tzdata/data/prebuild/posix/America/North_Dakota/New_Salem"
+  module_install_dir = "etc/zoneinfo/America/North_Dakota"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Nuuk") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Nuuk"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Ojinaga") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Ojinaga"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Panama") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Panama"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Pangnirtung") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Pangnirtung"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Paramaribo") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Paramaribo"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Phoenix") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Phoenix"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Port-au-Prince") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Port-au-Prince"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Port_of_Spain") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Port_of_Spain"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Porto_Velho") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Porto_Velho"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Puerto_Rico") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Puerto_Rico"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Punta_Arenas") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Punta_Arenas"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Rainy_River") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Rainy_River"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Rankin_Inlet") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Rankin_Inlet"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Recife") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Recife"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Regina") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Regina"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Resolute") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Resolute"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Rio_Branco") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Rio_Branco"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Santarem") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Santarem"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Santiago") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Santiago"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Santo_Domingo") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Santo_Domingo"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Sao_Paulo") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Sao_Paulo"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Scoresbysund") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Scoresbysund"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Sitka") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Sitka"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/St_Barthelemy") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/St_Barthelemy"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/St_Johns") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/St_Johns"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/St_Kitts") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/St_Kitts"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/St_Lucia") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/St_Lucia"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/St_Thomas") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/St_Thomas"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/St_Vincent") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/St_Vincent"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Swift_Current") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Swift_Current"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Tegucigalpa") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Tegucigalpa"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Thule") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Thule"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Thunder_Bay") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Thunder_Bay"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Tijuana") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Tijuana"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Toronto") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Toronto"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Tortola") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Tortola"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Vancouver") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Vancouver"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Whitehorse") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Whitehorse"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Winnipeg") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Winnipeg"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Yakutat") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Yakutat"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("America/Yellowknife") {
+  source = "//third_party/tzdata/data/prebuild/posix/America/Yellowknife"
+  module_install_dir = "etc/zoneinfo/America"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Antarctica/Casey") {
+  source = "//third_party/tzdata/data/prebuild/posix/Antarctica/Casey"
+  module_install_dir = "etc/zoneinfo/Antarctica"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Antarctica/Davis") {
+  source = "//third_party/tzdata/data/prebuild/posix/Antarctica/Davis"
+  module_install_dir = "etc/zoneinfo/Antarctica"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Antarctica/DumontDUrville") {
+  source = "//third_party/tzdata/data/prebuild/posix/Antarctica/DumontDUrville"
+  module_install_dir = "etc/zoneinfo/Antarctica"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Antarctica/Macquarie") {
+  source = "//third_party/tzdata/data/prebuild/posix/Antarctica/Macquarie"
+  module_install_dir = "etc/zoneinfo/Antarctica"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Antarctica/Mawson") {
+  source = "//third_party/tzdata/data/prebuild/posix/Antarctica/Mawson"
+  module_install_dir = "etc/zoneinfo/Antarctica"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Antarctica/McMurdo") {
+  source = "//third_party/tzdata/data/prebuild/posix/Antarctica/McMurdo"
+  module_install_dir = "etc/zoneinfo/Antarctica"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Antarctica/Palmer") {
+  source = "//third_party/tzdata/data/prebuild/posix/Antarctica/Palmer"
+  module_install_dir = "etc/zoneinfo/Antarctica"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Antarctica/Rothera") {
+  source = "//third_party/tzdata/data/prebuild/posix/Antarctica/Rothera"
+  module_install_dir = "etc/zoneinfo/Antarctica"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Antarctica/Syowa") {
+  source = "//third_party/tzdata/data/prebuild/posix/Antarctica/Syowa"
+  module_install_dir = "etc/zoneinfo/Antarctica"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Antarctica/Troll") {
+  source = "//third_party/tzdata/data/prebuild/posix/Antarctica/Troll"
+  module_install_dir = "etc/zoneinfo/Antarctica"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Antarctica/Vostok") {
+  source = "//third_party/tzdata/data/prebuild/posix/Antarctica/Vostok"
+  module_install_dir = "etc/zoneinfo/Antarctica"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Arctic/Longyearbyen") {
+  source = "//third_party/tzdata/data/prebuild/posix/Arctic/Longyearbyen"
+  module_install_dir = "etc/zoneinfo/Arctic"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Aden") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Aden"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Almaty") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Almaty"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Amman") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Amman"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Anadyr") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Anadyr"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Aqtau") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Aqtau"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Aqtobe") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Aqtobe"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Ashgabat") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Ashgabat"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Atyrau") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Atyrau"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Baghdad") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Baghdad"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Bahrain") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Bahrain"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Baku") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Baku"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Bangkok") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Bangkok"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Barnaul") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Barnaul"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Beirut") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Beirut"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Bishkek") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Bishkek"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Brunei") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Brunei"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Chita") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Chita"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Choibalsan") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Choibalsan"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Colombo") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Colombo"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Damascus") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Damascus"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Dhaka") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Dhaka"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Dili") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Dili"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Dubai") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Dubai"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Dushanbe") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Dushanbe"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Famagusta") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Famagusta"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Gaza") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Gaza"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Hebron") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Hebron"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Ho_Chi_Minh") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Ho_Chi_Minh"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Hong_Kong") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Hong_Kong"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Hovd") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Hovd"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Irkutsk") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Irkutsk"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Istanbul") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Istanbul"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Jakarta") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Jakarta"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Jayapura") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Jayapura"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Jerusalem") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Jerusalem"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Kabul") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Kabul"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Kamchatka") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Kamchatka"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Karachi") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Karachi"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Kathmandu") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Kathmandu"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Khandyga") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Khandyga"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Kolkata") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Kolkata"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Krasnoyarsk") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Krasnoyarsk"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Kuala_Lumpur") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Kuala_Lumpur"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Kuching") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Kuching"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Kuwait") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Kuwait"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Macau") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Macau"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Magadan") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Magadan"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Makassar") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Makassar"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Manila") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Manila"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Muscat") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Muscat"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Nicosia") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Nicosia"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Novokuznetsk") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Novokuznetsk"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Novosibirsk") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Novosibirsk"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Omsk") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Omsk"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Oral") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Oral"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Phnom_Penh") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Phnom_Penh"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Pontianak") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Pontianak"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Pyongyang") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Pyongyang"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Qatar") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Qatar"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Qostanay") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Qostanay"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Qyzylorda") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Qyzylorda"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Rangoon") {
+  source = "./prebuild/posix/Asia/Rangoon"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Riyadh") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Riyadh"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Sakhalin") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Sakhalin"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Samarkand") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Samarkand"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Seoul") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Seoul"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Shanghai") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Shanghai"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Singapore") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Singapore"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Srednekolymsk") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Srednekolymsk"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Taipei") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Taipei"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Tashkent") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Tashkent"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Tbilisi") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Tbilisi"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Tehran") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Tehran"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Thimbu") {
+  source = "./prebuild/posix/Asia/Thimbu"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Tokyo") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Tokyo"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Tomsk") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Tomsk"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Ulaanbaatar") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Ulaanbaatar"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Urumqi") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Urumqi"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Ust-Nera") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Ust-Nera"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Vientiane") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Vientiane"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Vladivostok") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Vladivostok"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Yakutsk") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Yakutsk"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Yangon") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Yangon"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Yekaterinburg") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Yekaterinburg"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Asia/Yerevan") {
+  source = "//third_party/tzdata/data/prebuild/posix/Asia/Yerevan"
+  module_install_dir = "etc/zoneinfo/Asia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Atlantic/Azores") {
+  source = "//third_party/tzdata/data/prebuild/posix/Atlantic/Azores"
+  module_install_dir = "etc/zoneinfo/Atlantic"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Atlantic/Bermuda") {
+  source = "//third_party/tzdata/data/prebuild/posix/Atlantic/Bermuda"
+  module_install_dir = "etc/zoneinfo/Atlantic"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Atlantic/Canary") {
+  source = "//third_party/tzdata/data/prebuild/posix/Atlantic/Canary"
+  module_install_dir = "etc/zoneinfo/Atlantic"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Atlantic/Cape_Verde") {
+  source = "//third_party/tzdata/data/prebuild/posix/Atlantic/Cape_Verde"
+  module_install_dir = "etc/zoneinfo/Atlantic"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Atlantic/Faroe") {
+  source = "//third_party/tzdata/data/prebuild/posix/Atlantic/Faroe"
+  module_install_dir = "etc/zoneinfo/Atlantic"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Atlantic/Madeira") {
+  source = "//third_party/tzdata/data/prebuild/posix/Atlantic/Madeira"
+  module_install_dir = "etc/zoneinfo/Atlantic"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Atlantic/Reykjavik") {
+  source = "//third_party/tzdata/data/prebuild/posix/Atlantic/Reykjavik"
+  module_install_dir = "etc/zoneinfo/Atlantic"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Atlantic/South_Georgia") {
+  source = "//third_party/tzdata/data/prebuild/posix/Atlantic/South_Georgia"
+  module_install_dir = "etc/zoneinfo/Atlantic"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Atlantic/St_Helena") {
+  source = "//third_party/tzdata/data/prebuild/posix/Atlantic/St_Helena"
+  module_install_dir = "etc/zoneinfo/Atlantic"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Atlantic/Stanley") {
+  source = "//third_party/tzdata/data/prebuild/posix/Atlantic/Stanley"
+  module_install_dir = "etc/zoneinfo/Atlantic"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Australia/Adelaide") {
+  source = "//third_party/tzdata/data/prebuild/posix/Australia/Adelaide"
+  module_install_dir = "etc/zoneinfo/Australia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Australia/Brisbane") {
+  source = "//third_party/tzdata/data/prebuild/posix/Australia/Brisbane"
+  module_install_dir = "etc/zoneinfo/Australia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Australia/Broken_Hill") {
+  source = "//third_party/tzdata/data/prebuild/posix/Australia/Broken_Hill"
+  module_install_dir = "etc/zoneinfo/Australia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Australia/Darwin") {
+  source = "//third_party/tzdata/data/prebuild/posix/Australia/Darwin"
+  module_install_dir = "etc/zoneinfo/Australia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Australia/Eucla") {
+  source = "//third_party/tzdata/data/prebuild/posix/Australia/Eucla"
+  module_install_dir = "etc/zoneinfo/Australia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Australia/Hobart") {
+  source = "//third_party/tzdata/data/prebuild/posix/Australia/Hobart"
+  module_install_dir = "etc/zoneinfo/Australia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Australia/Lindeman") {
+  source = "//third_party/tzdata/data/prebuild/posix/Australia/Lindeman"
+  module_install_dir = "etc/zoneinfo/Australia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Australia/Lord_Howe") {
+  source = "//third_party/tzdata/data/prebuild/posix/Australia/Lord_Howe"
+  module_install_dir = "etc/zoneinfo/Australia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Australia/Melbourne") {
+  source = "//third_party/tzdata/data/prebuild/posix/Australia/Melbourne"
+  module_install_dir = "etc/zoneinfo/Australia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Australia/Perth") {
+  source = "//third_party/tzdata/data/prebuild/posix/Australia/Perth"
+  module_install_dir = "etc/zoneinfo/Australia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Australia/Sydney") {
+  source = "//third_party/tzdata/data/prebuild/posix/Australia/Sydney"
+  module_install_dir = "etc/zoneinfo/Australia"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Brazil/DeNoronha") {
+  source = "./prebuild/posix/Brazil/DeNoronha"
+  module_install_dir = "etc/zoneinfo/Brazil"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("CET") {
+  source = "//third_party/tzdata/data/prebuild/posix/CET"
+  module_install_dir = "etc/zoneinfo"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("CST6CDT") {
+  source = "//third_party/tzdata/data/prebuild/posix/CST6CDT"
+  module_install_dir = "etc/zoneinfo"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("EET") {
+  source = "//third_party/tzdata/data/prebuild/posix/EET"
+  module_install_dir = "etc/zoneinfo"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("EST") {
+  source = "//third_party/tzdata/data/prebuild/posix/EST"
+  module_install_dir = "etc/zoneinfo"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("EST5EDT") {
+  source = "//third_party/tzdata/data/prebuild/posix/EST5EDT"
+  module_install_dir = "etc/zoneinfo"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Amsterdam") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Amsterdam"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Andorra") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Andorra"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Astrakhan") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Astrakhan"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Athens") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Athens"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Belgrade") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Belgrade"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Berlin") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Berlin"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Bratislava") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Bratislava"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Brussels") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Brussels"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Bucharest") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Bucharest"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Budapest") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Budapest"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Busingen") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Busingen"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Chisinau") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Chisinau"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Copenhagen") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Copenhagen"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Dublin") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Dublin"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Gibraltar") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Gibraltar"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Guernsey") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Guernsey"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Helsinki") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Helsinki"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Isle_of_Man") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Isle_of_Man"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Istanbul") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Istanbul"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Jersey") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Jersey"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Kaliningrad") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Kaliningrad"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Kiev") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Kiev"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Kirov") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Kirov"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Lisbon") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Lisbon"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Ljubljana") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Ljubljana"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/London") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/London"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Luxembourg") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Luxembourg"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Madrid") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Madrid"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Malta") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Malta"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Mariehamn") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Mariehamn"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Minsk") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Minsk"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Monaco") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Monaco"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Moscow") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Moscow"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Nicosia") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Nicosia"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Oslo") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Oslo"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Paris") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Paris"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Podgorica") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Podgorica"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Prague") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Prague"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Riga") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Riga"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Rome") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Rome"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Samara") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Samara"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/San_Marino") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/San_Marino"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Sarajevo") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Sarajevo"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Saratov") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Saratov"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Simferopol") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Simferopol"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Skopje") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Skopje"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Sofia") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Sofia"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Stockholm") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Stockholm"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Tallinn") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Tallinn"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Tirane") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Tirane"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Ulyanovsk") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Ulyanovsk"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Uzhgorod") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Uzhgorod"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Vaduz") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Vaduz"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Vatican") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Vatican"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Vienna") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Vienna"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Vilnius") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Vilnius"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Volgograd") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Volgograd"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Warsaw") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Warsaw"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Zagreb") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Zagreb"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Zaporozhye") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Zaporozhye"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Europe/Zurich") {
+  source = "//third_party/tzdata/data/prebuild/posix/Europe/Zurich"
+  module_install_dir = "etc/zoneinfo/Europe"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("HST") {
+  source = "//third_party/tzdata/data/prebuild/posix/HST"
+  module_install_dir = "etc/zoneinfo"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Indian/Antananarivo") {
+  source = "//third_party/tzdata/data/prebuild/posix/Indian/Antananarivo"
+  module_install_dir = "etc/zoneinfo/Indian"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Indian/Chagos") {
+  source = "//third_party/tzdata/data/prebuild/posix/Indian/Chagos"
+  module_install_dir = "etc/zoneinfo/Indian"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Indian/Christmas") {
+  source = "//third_party/tzdata/data/prebuild/posix/Indian/Christmas"
+  module_install_dir = "etc/zoneinfo/Indian"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Indian/Cocos") {
+  source = "//third_party/tzdata/data/prebuild/posix/Indian/Cocos"
+  module_install_dir = "etc/zoneinfo/Indian"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Indian/Comoro") {
+  source = "//third_party/tzdata/data/prebuild/posix/Indian/Comoro"
+  module_install_dir = "etc/zoneinfo/Indian"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Indian/Kerguelen") {
+  source = "//third_party/tzdata/data/prebuild/posix/Indian/Kerguelen"
+  module_install_dir = "etc/zoneinfo/Indian"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Indian/Mahe") {
+  source = "//third_party/tzdata/data/prebuild/posix/Indian/Mahe"
+  module_install_dir = "etc/zoneinfo/Indian"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Indian/Maldives") {
+  source = "//third_party/tzdata/data/prebuild/posix/Indian/Maldives"
+  module_install_dir = "etc/zoneinfo/Indian"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Indian/Mauritius") {
+  source = "//third_party/tzdata/data/prebuild/posix/Indian/Mauritius"
+  module_install_dir = "etc/zoneinfo/Indian"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Indian/Mayotte") {
+  source = "//third_party/tzdata/data/prebuild/posix/Indian/Mayotte"
+  module_install_dir = "etc/zoneinfo/Indian"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Indian/Reunion") {
+  source = "//third_party/tzdata/data/prebuild/posix/Indian/Reunion"
+  module_install_dir = "etc/zoneinfo/Indian"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("MET") {
+  source = "//third_party/tzdata/data/prebuild/posix/MET"
+  module_install_dir = "etc/zoneinfo"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("MST") {
+  source = "//third_party/tzdata/data/prebuild/posix/MST"
+  module_install_dir = "etc/zoneinfo"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("MST7MDT") {
+  source = "//third_party/tzdata/data/prebuild/posix/MST7MDT"
+  module_install_dir = "etc/zoneinfo"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("PST8PDT") {
+  source = "//third_party/tzdata/data/prebuild/posix/PST8PDT"
+  module_install_dir = "etc/zoneinfo"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Apia") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Apia"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Auckland") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Auckland"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Bougainville") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Bougainville"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Chatham") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Chatham"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Chuuk") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Chuuk"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Easter") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Easter"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Efate") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Efate"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Enderbury") {
+  source = "./prebuild/posix/Pacific/Enderbury"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Kanton") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Kanton"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Fakaofo") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Fakaofo"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Fiji") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Fiji"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Funafuti") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Funafuti"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Galapagos") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Galapagos"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Gambier") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Gambier"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Guadalcanal") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Guadalcanal"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Guam") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Guam"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Honolulu") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Honolulu"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Kiritimati") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Kiritimati"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Kosrae") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Kosrae"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Kwajalein") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Kwajalein"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Majuro") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Majuro"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Marquesas") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Marquesas"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Midway") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Midway"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Nauru") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Nauru"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Niue") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Niue"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Norfolk") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Norfolk"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Noumea") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Noumea"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Pago_Pago") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Pago_Pago"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Palau") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Palau"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Pitcairn") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Pitcairn"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Pohnpei") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Pohnpei"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Port_Moresby") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Port_Moresby"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Rarotonga") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Rarotonga"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Saipan") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Saipan"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Tahiti") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Tahiti"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Tarawa") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Tarawa"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Tongatapu") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Tongatapu"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Wake") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Wake"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("Pacific/Wallis") {
+  source = "//third_party/tzdata/data/prebuild/posix/Pacific/Wallis"
+  module_install_dir = "etc/zoneinfo/Pacific"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("WET") {
+  source = "//third_party/tzdata/data/prebuild/posix/WET"
+  module_install_dir = "etc/zoneinfo"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+group("zoneinfo") {
+  # just for standard system
+  if (is_standard_system) {
+    deps = [
+      ":Africa/Abidjan",
+      ":Africa/Accra",
+      ":Africa/Addis_Ababa",
+      ":Africa/Algiers",
+      ":Africa/Asmara",
+      ":Africa/Bamako",
+      ":Africa/Bangui",
+      ":Africa/Banjul",
+      ":Africa/Bissau",
+      ":Africa/Blantyre",
+      ":Africa/Brazzaville",
+      ":Africa/Bujumbura",
+      ":Africa/Cairo",
+      ":Africa/Casablanca",
+      ":Africa/Ceuta",
+      ":Africa/Conakry",
+      ":Africa/Dakar",
+      ":Africa/Dar_es_Salaam",
+      ":Africa/Djibouti",
+      ":Africa/Douala",
+      ":Africa/El_Aaiun",
+      ":Africa/Freetown",
+      ":Africa/Gaborone",
+      ":Africa/Harare",
+      ":Africa/Johannesburg",
+      ":Africa/Juba",
+      ":Africa/Kampala",
+      ":Africa/Khartoum",
+      ":Africa/Kigali",
+      ":Africa/Kinshasa",
+      ":Africa/Lagos",
+      ":Africa/Libreville",
+      ":Africa/Lome",
+      ":Africa/Luanda",
+      ":Africa/Lubumbashi",
+      ":Africa/Lusaka",
+      ":Africa/Malabo",
+      ":Africa/Maputo",
+      ":Africa/Maseru",
+      ":Africa/Mbabane",
+      ":Africa/Mogadishu",
+      ":Africa/Monrovia",
+      ":Africa/Nairobi",
+      ":Africa/Ndjamena",
+      ":Africa/Niamey",
+      ":Africa/Nouakchott",
+      ":Africa/Ouagadougou",
+      ":Africa/Porto-Novo",
+      ":Africa/Sao_Tome",
+      ":Africa/Tripoli",
+      ":Africa/Tunis",
+      ":Africa/Windhoek",
+      ":America/Adak",
+      ":America/Anchorage",
+      ":America/Anguilla",
+      ":America/Antigua",
+      ":America/Araguaina",
+      ":America/Argentina/Buenos_Aires",
+      ":America/Argentina/Catamarca",
+      ":America/Argentina/Cordoba",
+      ":America/Argentina/Jujuy",
+      ":America/Argentina/La_Rioja",
+      ":America/Argentina/Mendoza",
+      ":America/Argentina/Rio_Gallegos",
+      ":America/Argentina/Salta",
+      ":America/Argentina/San_Juan",
+      ":America/Argentina/San_Luis",
+      ":America/Argentina/Tucuman",
+      ":America/Argentina/Ushuaia",
+      ":America/Aruba",
+      ":America/Asuncion",
+      ":America/Atikokan",
+      ":America/Bahia",
+      ":America/Bahia_Banderas",
+      ":America/Barbados",
+      ":America/Belem",
+      ":America/Belize",
+      ":America/Blanc-Sablon",
+      ":America/Boa_Vista",
+      ":America/Bogota",
+      ":America/Boise",
+      ":America/Cambridge_Bay",
+      ":America/Campo_Grande",
+      ":America/Cancun",
+      ":America/Caracas",
+      ":America/Cayenne",
+      ":America/Cayman",
+      ":America/Chicago",
+      ":America/Chihuahua",
+      ":America/Costa_Rica",
+      ":America/Creston",
+      ":America/Cuiaba",
+      ":America/Curacao",
+      ":America/Danmarkshavn",
+      ":America/Dawson",
+      ":America/Dawson_Creek",
+      ":America/Denver",
+      ":America/Detroit",
+      ":America/Dominica",
+      ":America/Edmonton",
+      ":America/Eirunepe",
+      ":America/El_Salvador",
+      ":America/Fort_Nelson",
+      ":America/Fortaleza",
+      ":America/Glace_Bay",
+      ":America/Godthab",
+      ":America/Goose_Bay",
+      ":America/Grand_Turk",
+      ":America/Grenada",
+      ":America/Guadeloupe",
+      ":America/Guatemala",
+      ":America/Guayaquil",
+      ":America/Guyana",
+      ":America/Halifax",
+      ":America/Havana",
+      ":America/Hermosillo",
+      ":America/Indiana/Indianapolis",
+      ":America/Indiana/Knox",
+      ":America/Indiana/Marengo",
+      ":America/Indiana/Petersburg",
+      ":America/Indiana/Tell_City",
+      ":America/Indiana/Vevay",
+      ":America/Indiana/Vincennes",
+      ":America/Indiana/Winamac",
+      ":America/Inuvik",
+      ":America/Iqaluit",
+      ":America/Jamaica",
+      ":America/Juneau",
+      ":America/Kentucky/Louisville",
+      ":America/Kentucky/Monticello",
+      ":America/Kralendijk",
+      ":America/La_Paz",
+      ":America/Lima",
+      ":America/Los_Angeles",
+      ":America/Louisville",
+      ":America/Lower_Princes",
+      ":America/Maceio",
+      ":America/Managua",
+      ":America/Manaus",
+      ":America/Marigot",
+      ":America/Martinique",
+      ":America/Matamoros",
+      ":America/Mazatlan",
+      ":America/Menominee",
+      ":America/Merida",
+      ":America/Metlakatla",
+      ":America/Mexico_City",
+      ":America/Miquelon",
+      ":America/Moncton",
+      ":America/Monterrey",
+      ":America/Montevideo",
+      ":America/Montserrat",
+      ":America/Nassau",
+      ":America/New_York",
+      ":America/Nipigon",
+      ":America/Nome",
+      ":America/Noronha",
+      ":America/North_Dakota/Beulah",
+      ":America/North_Dakota/Center",
+      ":America/North_Dakota/New_Salem",
+      ":America/Nuuk",
+      ":America/Ojinaga",
+      ":America/Panama",
+      ":America/Pangnirtung",
+      ":America/Paramaribo",
+      ":America/Phoenix",
+      ":America/Port-au-Prince",
+      ":America/Port_of_Spain",
+      ":America/Porto_Velho",
+      ":America/Puerto_Rico",
+      ":America/Punta_Arenas",
+      ":America/Rainy_River",
+      ":America/Rankin_Inlet",
+      ":America/Recife",
+      ":America/Regina",
+      ":America/Resolute",
+      ":America/Rio_Branco",
+      ":America/Santarem",
+      ":America/Santiago",
+      ":America/Santo_Domingo",
+      ":America/Sao_Paulo",
+      ":America/Scoresbysund",
+      ":America/Sitka",
+      ":America/St_Barthelemy",
+      ":America/St_Johns",
+      ":America/St_Kitts",
+      ":America/St_Lucia",
+      ":America/St_Thomas",
+      ":America/St_Vincent",
+      ":America/Swift_Current",
+      ":America/Tegucigalpa",
+      ":America/Thule",
+      ":America/Thunder_Bay",
+      ":America/Tijuana",
+      ":America/Toronto",
+      ":America/Tortola",
+      ":America/Vancouver",
+      ":America/Whitehorse",
+      ":America/Winnipeg",
+      ":America/Yakutat",
+      ":America/Yellowknife",
+      ":Antarctica/Casey",
+      ":Antarctica/Davis",
+      ":Antarctica/DumontDUrville",
+      ":Antarctica/Macquarie",
+      ":Antarctica/Mawson",
+      ":Antarctica/McMurdo",
+      ":Antarctica/Palmer",
+      ":Antarctica/Rothera",
+      ":Antarctica/Syowa",
+      ":Antarctica/Troll",
+      ":Antarctica/Vostok",
+      ":Arctic/Longyearbyen",
+      ":Asia/Aden",
+      ":Asia/Almaty",
+      ":Asia/Amman",
+      ":Asia/Anadyr",
+      ":Asia/Aqtau",
+      ":Asia/Aqtobe",
+      ":Asia/Ashgabat",
+      ":Asia/Atyrau",
+      ":Asia/Baghdad",
+      ":Asia/Bahrain",
+      ":Asia/Baku",
+      ":Asia/Bangkok",
+      ":Asia/Barnaul",
+      ":Asia/Beirut",
+      ":Asia/Bishkek",
+      ":Asia/Brunei",
+      ":Asia/Chita",
+      ":Asia/Choibalsan",
+      ":Asia/Colombo",
+      ":Asia/Damascus",
+      ":Asia/Dhaka",
+      ":Asia/Dili",
+      ":Asia/Dubai",
+      ":Asia/Dushanbe",
+      ":Asia/Famagusta",
+      ":Asia/Gaza",
+      ":Asia/Hebron",
+      ":Asia/Ho_Chi_Minh",
+      ":Asia/Hong_Kong",
+      ":Asia/Hovd",
+      ":Asia/Irkutsk",
+      ":Asia/Istanbul",
+      ":Asia/Jakarta",
+      ":Asia/Jayapura",
+      ":Asia/Jerusalem",
+      ":Asia/Kabul",
+      ":Asia/Kamchatka",
+      ":Asia/Karachi",
+      ":Asia/Kathmandu",
+      ":Asia/Khandyga",
+      ":Asia/Kolkata",
+      ":Asia/Krasnoyarsk",
+      ":Asia/Kuala_Lumpur",
+      ":Asia/Kuching",
+      ":Asia/Kuwait",
+      ":Asia/Macau",
+      ":Asia/Magadan",
+      ":Asia/Makassar",
+      ":Asia/Manila",
+      ":Asia/Muscat",
+      ":Asia/Nicosia",
+      ":Asia/Novokuznetsk",
+      ":Asia/Novosibirsk",
+      ":Asia/Omsk",
+      ":Asia/Oral",
+      ":Asia/Phnom_Penh",
+      ":Asia/Pontianak",
+      ":Asia/Pyongyang",
+      ":Asia/Qatar",
+      ":Asia/Qostanay",
+      ":Asia/Qyzylorda",
+      ":Asia/Rangoon",
+      ":Asia/Riyadh",
+      ":Asia/Sakhalin",
+      ":Asia/Samarkand",
+      ":Asia/Seoul",
+      ":Asia/Shanghai",
+      ":Asia/Singapore",
+      ":Asia/Srednekolymsk",
+      ":Asia/Taipei",
+      ":Asia/Tashkent",
+      ":Asia/Tbilisi",
+      ":Asia/Tehran",
+      ":Asia/Thimbu",
+      ":Asia/Tokyo",
+      ":Asia/Tomsk",
+      ":Asia/Ulaanbaatar",
+      ":Asia/Urumqi",
+      ":Asia/Ust-Nera",
+      ":Asia/Vientiane",
+      ":Asia/Vladivostok",
+      ":Asia/Yakutsk",
+      ":Asia/Yangon",
+      ":Asia/Yekaterinburg",
+      ":Asia/Yerevan",
+      ":Atlantic/Azores",
+      ":Atlantic/Bermuda",
+      ":Atlantic/Canary",
+      ":Atlantic/Cape_Verde",
+      ":Atlantic/Faroe",
+      ":Atlantic/Madeira",
+      ":Atlantic/Reykjavik",
+      ":Atlantic/South_Georgia",
+      ":Atlantic/St_Helena",
+      ":Atlantic/Stanley",
+      ":Australia/Adelaide",
+      ":Australia/Brisbane",
+      ":Australia/Broken_Hill",
+      ":Australia/Darwin",
+      ":Australia/Eucla",
+      ":Australia/Hobart",
+      ":Australia/Lindeman",
+      ":Australia/Lord_Howe",
+      ":Australia/Melbourne",
+      ":Australia/Perth",
+      ":Australia/Sydney",
+      ":Brazil/DeNoronha",
+      ":CET",
+      ":CST6CDT",
+      ":EET",
+      ":EST",
+      ":EST5EDT",
+      ":Europe/Amsterdam",
+      ":Europe/Andorra",
+      ":Europe/Astrakhan",
+      ":Europe/Athens",
+      ":Europe/Belgrade",
+      ":Europe/Berlin",
+      ":Europe/Bratislava",
+      ":Europe/Brussels",
+      ":Europe/Bucharest",
+      ":Europe/Budapest",
+      ":Europe/Busingen",
+      ":Europe/Chisinau",
+      ":Europe/Copenhagen",
+      ":Europe/Dublin",
+      ":Europe/Gibraltar",
+      ":Europe/Guernsey",
+      ":Europe/Helsinki",
+      ":Europe/Isle_of_Man",
+      ":Europe/Istanbul",
+      ":Europe/Jersey",
+      ":Europe/Kaliningrad",
+      ":Europe/Kiev",
+      ":Europe/Kirov",
+      ":Europe/Lisbon",
+      ":Europe/Ljubljana",
+      ":Europe/London",
+      ":Europe/Luxembourg",
+      ":Europe/Madrid",
+      ":Europe/Malta",
+      ":Europe/Mariehamn",
+      ":Europe/Minsk",
+      ":Europe/Monaco",
+      ":Europe/Moscow",
+      ":Europe/Nicosia",
+      ":Europe/Oslo",
+      ":Europe/Paris",
+      ":Europe/Podgorica",
+      ":Europe/Prague",
+      ":Europe/Riga",
+      ":Europe/Rome",
+      ":Europe/Samara",
+      ":Europe/San_Marino",
+      ":Europe/Sarajevo",
+      ":Europe/Saratov",
+      ":Europe/Simferopol",
+      ":Europe/Skopje",
+      ":Europe/Sofia",
+      ":Europe/Stockholm",
+      ":Europe/Tallinn",
+      ":Europe/Tirane",
+      ":Europe/Ulyanovsk",
+      ":Europe/Uzhgorod",
+      ":Europe/Vaduz",
+      ":Europe/Vatican",
+      ":Europe/Vienna",
+      ":Europe/Vilnius",
+      ":Europe/Volgograd",
+      ":Europe/Warsaw",
+      ":Europe/Zagreb",
+      ":Europe/Zaporozhye",
+      ":Europe/Zurich",
+      ":HST",
+      ":Indian/Antananarivo",
+      ":Indian/Chagos",
+      ":Indian/Christmas",
+      ":Indian/Cocos",
+      ":Indian/Comoro",
+      ":Indian/Kerguelen",
+      ":Indian/Mahe",
+      ":Indian/Maldives",
+      ":Indian/Mauritius",
+      ":Indian/Mayotte",
+      ":Indian/Reunion",
+      ":MET",
+      ":MST",
+      ":MST7MDT",
+      ":PST8PDT",
+      ":Pacific/Apia",
+      ":Pacific/Auckland",
+      ":Pacific/Bougainville",
+      ":Pacific/Chatham",
+      ":Pacific/Chuuk",
+      ":Pacific/Easter",
+      ":Pacific/Efate",
+      ":Pacific/Enderbury",
+      ":Pacific/Fakaofo",
+      ":Pacific/Fiji",
+      ":Pacific/Funafuti",
+      ":Pacific/Galapagos",
+      ":Pacific/Gambier",
+      ":Pacific/Guadalcanal",
+      ":Pacific/Guam",
+      ":Pacific/Honolulu",
+      ":Pacific/Kanton",
+      ":Pacific/Kiritimati",
+      ":Pacific/Kosrae",
+      ":Pacific/Kwajalein",
+      ":Pacific/Majuro",
+      ":Pacific/Marquesas",
+      ":Pacific/Midway",
+      ":Pacific/Nauru",
+      ":Pacific/Niue",
+      ":Pacific/Norfolk",
+      ":Pacific/Noumea",
+      ":Pacific/Pago_Pago",
+      ":Pacific/Palau",
+      ":Pacific/Pitcairn",
+      ":Pacific/Pohnpei",
+      ":Pacific/Port_Moresby",
+      ":Pacific/Rarotonga",
+      ":Pacific/Saipan",
+      ":Pacific/Tahiti",
+      ":Pacific/Tarawa",
+      ":Pacific/Tongatapu",
+      ":Pacific/Wake",
+      ":Pacific/Wallis",
+      ":WET",
+    ]
+  }
+}
