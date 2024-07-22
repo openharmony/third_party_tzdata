@@ -32,7 +32,7 @@ group("zoneinfo") {
   if (is_standard_system) {
     deps = [
       ":iana_tzdata",
-      ":timezone_list_cfg"
+      ":timezone_list_cfg",
     ]
   }
 }
