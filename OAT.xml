@@ -34,7 +34,7 @@
             <filefilter name="defaultFilter" desc="Files not to check">
             </filefilter>
             <filefilter name="binaryFileTypePolicyFilter" desc="binary file filter policy">
-                <filteritem type="filepath" name="openEuler/tzdata/tzdata-openEuler-22.03-LTS-SP3-release.zip" desc="openEuler raw file"/>
+                <filteritem type="filepath" name="openEuler/tzdata/tzdata-2022a-16.oe2203sp3.src.rpm" desc="openEuler raw file"/>
             </filefilter>
             <filefilter name="defaultPolicyFilter" desc="Filters for compatibility, license header policies">      
                 <filteritem type="filepath" name="date.1" desc="no license header"/>
@@ -45,6 +45,9 @@
                 <filteritem type="filepath" name=".*.tab" desc="no license header"/>
 
                 <filteritem type="filepath" name="CONTRIBUTING" desc="no license header"/>
+                <filteritem type="filepath" name="SECURITY" desc="no license header"/>
+                <filteritem type="filepath" name="to2050.tzs" desc="no license header"/>
+                <filteritem type="filepath" name="tzdata.zi" desc="no license header"/>
                 <filteritem type="filepath" name="difftime.c" desc="no license header"/>
                 <filteritem type="filepath" name="etcetera" desc="no license header"/>
                 <filteritem type="filepath" name="europe" desc="no license header"/>
@@ -81,6 +84,9 @@
                 <filteritem type="filepath" name=".*.tab" desc="Describe the reason for filtering scan results"/>
 
                 <filteritem type="filepath" name="CONTRIBUTING" desc="Describe the reason for filtering scan results"/>
+                <filteritem type="filepath" name="SECURITY" desc="Describe the reason for filtering scan results"/>
+                <filteritem type="filepath" name="to2050.tzs" desc="Describe the reason for filtering scan results"/>
+                <filteritem type="filepath" name="tzdata.zi" desc="Describe the reason for filtering scan results"/>
                 <filteritem type="filepath" name="difftime.c" desc="Describe the reason for filtering scan results"/>
                 <filteritem type="filepath" name="etcetera" desc="Describe the reason for filtering scan results"/>
                 <filteritem type="filepath" name="europe" desc="Describe the reason for filtering scan results"/>
