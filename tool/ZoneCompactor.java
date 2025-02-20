@@ -101,7 +101,7 @@ public class ZoneCompactor {
     }
 
     /**
-     * Main method to compact timezone data file
+     * Write tzdata file
      *
      * @param outputDirectory generate tzdata file directory
      * @param version tzdata version eg:"tzdata2025a"
@@ -117,17 +117,17 @@ public class ZoneCompactor {
             f.write(toAscii(new byte[12], version));
             // Write placeholder values for the offsets, and remember where we need to seek back to later
             // when we have the real values.
-            int index_offset_offset = (int) f.getFilePointer();
+            int indexOffsetOffset = (int) f.getFilePointer();
             f.writeInt(0);
-            int data_offset_offset = (int) f.getFilePointer();
+            int dataOffsetOffset = (int) f.getFilePointer();
             f.writeInt(0);
             // The final offset serves as a placeholder for sections that might be added in future and
             // ensures we know the size of the final "real" section. Relying on the last section ending at
             // EOF would make it harder to append sections to the end of the file in a backward compatible
             // way.
-            int final_offset_offset = (int) f.getFilePointer();
+            int finalOffsetOffset = (int) f.getFilePointer();
             f.writeInt(0);
-            int index_offset = (int) f.getFilePointer();
+            int indexOffset = (int) f.getFilePointer();
             // Write the index.
             ArrayList<String> sortedOlsonIds = new ArrayList<String>();
             sortedOlsonIds.addAll(offsets.keySet());
@@ -140,32 +140,33 @@ public class ZoneCompactor {
                 f.writeInt(offsets.get(zoneName));
                 f.writeInt(lengths.get(zoneName));
             }
-            int data_offset = (int) f.getFilePointer();
+            int dataOffset = (int) f.getFilePointer();
             // Write the data.
             f.write(allData.toByteArray());
-            int final_offset = (int) f.getFilePointer();
+            int finalOffset = (int) f.getFilePointer();
             // Go back and fix up the offsets in the header.
-            f.seek(index_offset_offset);
-            f.writeInt(index_offset);
-            f.seek(data_offset_offset);
-            f.writeInt(data_offset);
-            f.seek(final_offset_offset);
-            f.writeInt(final_offset);
+            f.seek(indexOffsetOffset);
+            f.writeInt(indexOffset);
+            f.seek(dataOffsetOffset);
+            f.writeInt(dataOffset);
+            f.seek(finalOffsetOffset);
+            f.writeInt(finalOffset);
         }
    }
 
     // Concatenate the contents of 'inFile' onto 'out'.
     private static void copyFile(File inFile, OutputStream out) throws Exception {
-        InputStream in = new FileInputStream(inFile);
-        byte[] buf = new byte[8192];
-        while (true) {
-            int nbytes = in.read(buf);
-            if (nbytes == -1) {
-                break;
+        try (InputStream in = new FileInputStream(inFile)) {
+            byte[] buf = new byte[8192];
+            while (true) {
+                int nbytes = in.read(buf);
+                if (nbytes == -1) {
+                    break;
+                }
+                out.write(buf, 0, nbytes);
             }
-            out.write(buf, 0, nbytes);
+            out.flush();
         }
-        out.flush();
     }
 
     private static byte[] toAscii(byte[] dst, String src) {
