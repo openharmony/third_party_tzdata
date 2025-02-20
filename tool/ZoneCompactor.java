@@ -52,7 +52,7 @@ import java.util.ArrayList;
  * hierarchy suitable for this tool (containing files such as 'data/Africa/Abidjan').
  *
  * @since 2025/02/08
-*/
+ */
 public class ZoneCompactor {
     // Maximum number of characters in a zone name, including '\0' terminator.
     private static final int MAXNAME = 40;
@@ -152,7 +152,7 @@ public class ZoneCompactor {
             f.seek(finalOffsetOffset);
             f.writeInt(finalOffset);
         }
-   }
+    }
 
     // Concatenate the contents of 'inFile' onto 'out'.
     private static void copyFile(File inFile, OutputStream out) throws Exception {
