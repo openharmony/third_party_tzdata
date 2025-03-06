@@ -35,6 +35,7 @@
             </filefilter>
             <filefilter name="binaryFileTypePolicyFilter" desc="binary file filter policy">
                 <filteritem type="filepath" name="openEuler/tzdata/tzdata-2022a-16.oe2203sp3.src.rpm" desc="openEuler raw file"/>
+                <filteritem type="filepath" name="data/prebuild/posix/tzdata" desc="packaged binary file"/>
             </filefilter>
             <filefilter name="defaultPolicyFilter" desc="Filters for compatibility, license header policies">      
                 <filteritem type="filepath" name="date.1" desc="no license header"/>
@@ -82,6 +83,7 @@
                 <filteritem type="filepath" name=".*.8" desc="Describe the reason for filtering scan results"/>
                 <filteritem type="filepath" name=".*.awk" desc="Describe the reason for filtering scan results"/>
                 <filteritem type="filepath" name=".*.tab" desc="Describe the reason for filtering scan results"/>
+                <filteritem type="filepath" name="data/*.gn" desc="Describe the reason for filtering scan results"/>
 
                 <filteritem type="filepath" name="CONTRIBUTING" desc="Describe the reason for filtering scan results"/>
                 <filteritem type="filepath" name="SECURITY" desc="Describe the reason for filtering scan results"/>
