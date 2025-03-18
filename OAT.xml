@@ -83,7 +83,8 @@
                 <filteritem type="filepath" name=".*.8" desc="Describe the reason for filtering scan results"/>
                 <filteritem type="filepath" name=".*.awk" desc="Describe the reason for filtering scan results"/>
                 <filteritem type="filepath" name=".*.tab" desc="Describe the reason for filtering scan results"/>
-                <filteritem type="filepath" name="data/*.gn" desc="Describe the reason for filtering scan results"/>
+                <filteritem type="filepath" name="data/.*.gn" desc="Describe the reason for filtering scan results"/>
+                <filteritem type="filepath" name="tool/.*.java" desc="Describe the reason for filtering scan results"/>
 
                 <filteritem type="filepath" name="CONTRIBUTING" desc="Describe the reason for filtering scan results"/>
                 <filteritem type="filepath" name="SECURITY" desc="Describe the reason for filtering scan results"/>
