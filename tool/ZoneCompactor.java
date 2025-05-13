@@ -66,12 +66,13 @@ public class ZoneCompactor {
     // File lengths by zone name.
     private Map<String, Integer> lengths = new HashMap<>();
 
-    /*
+    /**
      * Main method to compact timezone data file
      *
      * @param setupFile timezone list file
      * @param dataDirectory timezone binary file directory
      * @param outputDirectory generate tzdata file directory
+     * @param version tzdata version eg:"tzdata2025a"
      * @throws Exception input param invalid
      */
     public ZoneCompactor(String setupFile, String dataDirectory, String outputDirectory,
@@ -108,7 +109,7 @@ public class ZoneCompactor {
      * @throws Exception input param invalid
      */
     private void writeFile(String outputDirectory, String version,
-                           ByteArrayOutputStream allData) throw Exception {
+                           ByteArrayOutputStream allData) throws Exception {
         // Create/truncate the destination file.
         try (RandomAccessFile f = new RandomAccessFile(new File(outputDirectory, "tzdata"), "rw")) {
             f.setLength(0);
@@ -150,22 +151,22 @@ public class ZoneCompactor {
             f.writeInt(dataOffset);
             f.seek(finalOffsetOffset);
             f.writeInt(finalOffset);
-            f.close();
         }
    }
 
     // Concatenate the contents of 'inFile' onto 'out'.
     private static void copyFile(File inFile, OutputStream out) throws Exception {
-        InputStream in = new FileInputStream(inFile);
-        byte[] buf = new byte[8192];
-        while (true) {
-            int nbytes = in.read(buf);
-            if (nbytes == -1) {
-                break;
+        try (InputStream in = new FileInputStream(inFile)) {
+            byte[] buf = new byte[8192];
+            while (true) {
+                int nbytes = in.read(buf);
+                if (nbytes == -1) {
+                    break;
+                }
+                out.write(buf, 0, nbytes);
             }
-            out.write(buf, 0, nbytes);
+            out.flush();
         }
-        out.flush();
     }
 
     private static byte[] toAscii(byte[] dst, String src) {
