@@ -4,7 +4,7 @@
     "License": "BSD 3-Clause License",
     "License File": "LICENSE",
     "Version Number": "2025b",
-    "Upstream URL": "https://gitee.com/eggert/tz",
+    "Upstream URL": "https://github.com/eggert/tz",
     "Description": "The Time Zone Database (often called tz or zoneinfo) contains code and data that represent the history of local time for many representative locations around the globe."
   }
 ]

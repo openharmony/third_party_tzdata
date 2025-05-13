@@ -13,8 +13,22 @@
  * limitations under the License.
  */
 
-import java.io.*;
-import java.util.*;
+package com.oh.tzdata.tools;
+
+import java.io.InputStream;
+import java.io.BufferedReader;
+import java.io.RandomAccessFile;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileReader;
+import java.io.OutputStream;
+import java.util.Collections;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.Set;
+import java.util.LinkedHashSet;
+import java.util.ArrayList;
 
 /**
  * usage: java ZoneCompactor <setup file> <data directory> <output directory> <tzdata version>
@@ -38,35 +52,28 @@ import java.util.*;
  * hierarchy suitable for this tool (containing files such as 'data/Africa/Abidjan').
  *
  * @since 2025/02/08
-*/
-
+ */
 public class ZoneCompactor {
     // Maximum number of characters in a zone name, including '\0' terminator.
     private static final int MAXNAME = 40;
 
     // Zone name synonyms.
-    private Map<String,String> links = new HashMap<>();
+    private Map<String, String> links = new HashMap<>();
 
     // File offsets by zone name.
-    private Map<String,Integer> offsets = new HashMap<>();
+    private Map<String, Integer> offsets = new HashMap<>();
 
     // File lengths by zone name.
-    private Map<String,Integer> lengths = new HashMap<>();
+    private Map<String, Integer> lengths = new HashMap<>();
 
-    // Concatenate the contents of 'inFile' onto 'out'.
-    private static void copyFile(File inFile, OutputStream out) throws Exception {
-        InputStream in = new FileInputStream(inFile);
-        byte[] buf = new byte[8192];
-        while (true) {
-            int nbytes = in.read(buf);
-            if (nbytes == -1) {
-                break;
-            }
-            out.write(buf, 0, nbytes);
-        }
-        out.flush();
-    }
-
+    /*
+     * Main method to compact timezone data file
+     *
+     * @param setupFile timezone list file
+     * @param dataDirectory timezone binary file directory
+     * @param outputDirectory generate tzdata file directory
+     * @throws Exception input param invalid
+     */
     public ZoneCompactor(String setupFile, String dataDirectory, String outputDirectory,
         String version) throws Exception {
         // Read the setup file and concatenate all the data.
@@ -89,55 +96,82 @@ public class ZoneCompactor {
             offset += length;
             copyFile(sourceFile, allData);
         }
+        writeFile(outputDirectory, version, allData);
+    }
 
+    /**
+     * Write tzdata file
+     *
+     * @param outputDirectory generate tzdata file directory
+     * @param version tzdata version eg:"tzdata2025a"
+     * @param allData temp file
+     * @throws Exception input param invalid
+     */
+    private void writeFile(String outputDirectory, String version,
+                           ByteArrayOutputStream allData) throw Exception {
         // Create/truncate the destination file.
-        RandomAccessFile f = new RandomAccessFile(new File(outputDirectory, "tzdata"), "rw");
-        f.setLength(0);
-        // tzdata_version
-        f.write(toAscii(new byte[12], version));
-        // Write placeholder values for the offsets, and remember where we need to seek back to later
-        // when we have the real values.
-        int index_offset_offset = (int) f.getFilePointer();
-        f.writeInt(0);
-        int data_offset_offset = (int) f.getFilePointer();
-        f.writeInt(0);
-        // The final offset serves as a placeholder for sections that might be added in future and
-        // ensures we know the size of the final "real" section. Relying on the last section ending at
-        // EOF would make it harder to append sections to the end of the file in a backward compatible
-        // way.
-        int final_offset_offset = (int) f.getFilePointer();
-        f.writeInt(0);
-        int index_offset = (int) f.getFilePointer();
-        // Write the index.
-        ArrayList<String> sortedOlsonIds = new ArrayList<String>();
-        sortedOlsonIds.addAll(offsets.keySet());
-        Collections.sort(sortedOlsonIds);
-        for (String zoneName : sortedOlsonIds) {
-            if (zoneName.length() >= MAXNAME) {
-                throw new RuntimeException("zone filename too long: " + zoneName.length());
+        try (RandomAccessFile f = new RandomAccessFile(new File(outputDirectory, "tzdata"), "rw")) {
+            f.setLength(0);
+            // tzdata_version
+            f.write(toAscii(new byte[12], version));
+            // Write placeholder values for the offsets, and remember where we need to seek back to later
+            // when we have the real values.
+            int indexOffsetOffset = (int) f.getFilePointer();
+            f.writeInt(0);
+            int dataOffsetOffset = (int) f.getFilePointer();
+            f.writeInt(0);
+            // The final offset serves as a placeholder for sections that might be added in future and
+            // ensures we know the size of the final "real" section. Relying on the last section ending at
+            // EOF would make it harder to append sections to the end of the file in a backward compatible
+            // way.
+            int finalOffsetOffset = (int) f.getFilePointer();
+            f.writeInt(0);
+            int indexOffset = (int) f.getFilePointer();
+            // Write the index.
+            ArrayList<String> sortedOlsonIds = new ArrayList<String>();
+            sortedOlsonIds.addAll(offsets.keySet());
+            Collections.sort(sortedOlsonIds);
+            for (String zoneName : sortedOlsonIds) {
+                if (zoneName.length() >= MAXNAME) {
+                    throw new IllegalArgumentException("zone filename too long: " + zoneName.length());
+                }
+                f.write(toAscii(new byte[MAXNAME], zoneName));
+                f.writeInt(offsets.get(zoneName));
+                f.writeInt(lengths.get(zoneName));
             }
-            f.write(toAscii(new byte[MAXNAME], zoneName));
-            f.writeInt(offsets.get(zoneName));
-            f.writeInt(lengths.get(zoneName));
+            int dataOffset = (int) f.getFilePointer();
+            // Write the data.
+            f.write(allData.toByteArray());
+            int finalOffset = (int) f.getFilePointer();
+            // Go back and fix up the offsets in the header.
+            f.seek(indexOffsetOffset);
+            f.writeInt(indexOffset);
+            f.seek(dataOffsetOffset);
+            f.writeInt(dataOffset);
+            f.seek(finalOffsetOffset);
+            f.writeInt(finalOffset);
+            f.close();
         }
-        int data_offset = (int) f.getFilePointer();
-        // Write the data.
-        f.write(allData.toByteArray());
-        int final_offset = (int) f.getFilePointer();
-        // Go back and fix up the offsets in the header.
-        f.seek(index_offset_offset);
-        f.writeInt(index_offset);
-        f.seek(data_offset_offset);
-        f.writeInt(data_offset);
-        f.seek(final_offset_offset);
-        f.writeInt(final_offset);
-        f.close();
+   }
+
+    // Concatenate the contents of 'inFile' onto 'out'.
+    private static void copyFile(File inFile, OutputStream out) throws Exception {
+        InputStream in = new FileInputStream(inFile);
+        byte[] buf = new byte[8192];
+        while (true) {
+            int nbytes = in.read(buf);
+            if (nbytes == -1) {
+                break;
+            }
+            out.write(buf, 0, nbytes);
+        }
+        out.flush();
     }
 
     private static byte[] toAscii(byte[] dst, String src) {
         for (int i = 0; i < src.length(); ++i) {
             if (src.charAt(i) > '~') {
-                throw new RuntimeException("non-ASCII string: " + src);
+                throw new IllegalArgumentException("non-ASCII string: " + src);
             }
             dst[i] = (byte) src.charAt(i);
         }
@@ -145,10 +179,10 @@ public class ZoneCompactor {
     }
 
     public static void main(String[] args) throws Exception {
-        String setupFilePath = "C:\\Users\\Administrator\\Desktop\\iana\\setup";
-        String dataDir = "C:\\Users\\Administrator\\Desktop\\iana\\tzdata2025a\\posix";
-        String outputDir = "C:\\Users\\Administrator\\Desktop\\iana\\tzdata2025a\\output";
-        String tzdataVersion = "tzdata2025a";
+        String setupFilePath = args[0];
+        String dataDir = args[1];
+        String outputDir = args[2];
+        String tzdataVersion = args[3];
         new ZoneCompactor(setupFilePath, dataDir, outputDir, tzdataVersion);
     }
 }
