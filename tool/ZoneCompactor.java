@@ -152,7 +152,7 @@ public class ZoneCompactor {
             f.seek(finalOffsetOffset);
             f.writeInt(finalOffset);
         }
-   }
+    }
 
     // Concatenate the contents of 'inFile' onto 'out'.
     private static void copyFile(File inFile, OutputStream out) throws Exception {
