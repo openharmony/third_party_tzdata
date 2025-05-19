@@ -57,6 +57,7 @@ public class ZoneCompactor {
     // Maximum number of characters in a zone name, including '\0' terminator.
     private static final int MAXNAME = 40;
 
+    private final static String READ_WRITE_MODE = "rw";
     // Zone name synonyms.
     private Map<String, String> links = new HashMap<>();
 
@@ -80,10 +81,10 @@ public class ZoneCompactor {
         // Read the setup file and concatenate all the data.
         Set<String> zoneIds = new LinkedHashSet<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(setupFile))) {
-            String s;
-            while ((s = reader.readLine()) != null) {
-                s = s.trim();
-                zoneIds.add(s);
+            String line;
+            while ((line = reader.readLine()) != null) {
+                line = line.trim();
+                zoneIds.add(line);
             }
         }
 
@@ -111,7 +112,7 @@ public class ZoneCompactor {
     private void writeFile(String outputDirectory, String version,
                            ByteArrayOutputStream allData) throws Exception {
         // Create/truncate the destination file.
-        try (RandomAccessFile f = new RandomAccessFile(new File(outputDirectory, "tzdata"), "rw")) {
+        try (RandomAccessFile f = new RandomAccessFile(new File(outputDirectory, "tzdata"), READ_WRITE_MODE)) {
             f.setLength(0);
             // tzdata_version
             f.write(toAscii(new byte[12], version));
