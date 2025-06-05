@@ -37,7 +37,7 @@ ohos_prebuilt_etc("watch_timezone_list_cfg") {
 group("zoneinfo") {
   # just for standard system
   if (is_standard_system) {
-      deps = [ ":iana_tzdata" ]
+    deps = [ ":iana_tzdata" ]
     if (target_platform == "watch") {
       deps += [ ":watch_timezone_list_cfg" ]
     } else {
