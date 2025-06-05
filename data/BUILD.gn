@@ -27,12 +27,33 @@ ohos_prebuilt_etc("timezone_list_cfg") {
   subsystem_name = "thirdparty"
 }
 
+ohos_prebuilt_etc("watch_iana_tzdata") {
+  source = "//third_party/tzdata/data/prebuild/wearable/tzdata"
+  module_install_dir = "etc/zoneinfo"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
+ohos_prebuilt_etc("watch_timezone_list_cfg") {
+  source = "//third_party/tzdata/data/prebuild/wearable/timezone_list.cfg"
+  module_install_dir = "etc/zoneinfo"
+  part_name = "tzdata"
+  subsystem_name = "thirdparty"
+}
+
 group("zoneinfo") {
   # just for standard system
   if (is_standard_system) {
-    deps = [
-      ":iana_tzdata",
-      ":timezone_list_cfg",
-    ]
+    if (target_platform == "watch") {
+      deps = [
+        ":watch_iana_tzdata",
+        ":watch_timezone_list_cfg",
+      ]
+    } else {
+      deps = [
+        ":iana_tzdata",
+        ":timezone_list_cfg",
+      ]
+    }
   }
 }
