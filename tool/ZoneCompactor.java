@@ -57,7 +57,8 @@ public class ZoneCompactor {
     // Maximum number of characters in a zone name, including '\0' terminator.
     private static final int MAXNAME = 40;
 
-    private final static String READ_WRITE_MODE = "rw";
+    private static final String READ_WRITE_MODE = "rw";
+
     // Zone name synonyms.
     private Map<String, String> links = new HashMap<>();
 
