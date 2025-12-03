@@ -1,7 +1,7 @@
 [
   {
     "Name": "tzdata",
-    "License": "BSD 3-Clause License",
+    "License": "Public Domain",
     "License File": "LICENSE",
     "Version Number": "2025b",
     "Upstream URL": "https://github.com/eggert/tz",
