@@ -32,6 +32,7 @@ done
 echo "zdd--@@:"${tool_bin_dir}
 make -C ${iana_path}
 mkdir -p ${zic_path}
+mkdir -p ${posix_path}
 mv ${iana_path}/zic ${zic_path}
 
 state_name=('africa' 'antarctica' 'asia' 'australasia' 'europe' 'etcetera' 'northamerica' 'southamerica' 'backward')
