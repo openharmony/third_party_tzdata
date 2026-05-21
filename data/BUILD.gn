@@ -16,18 +16,14 @@ import("//build/ohos.gni")
 action("gen_tzdata") {
   script = "../tool/compile_tool/compile.sh"
   sources = [ "//third_party/tzdata/tool/compile_tool/compile.sh" ]
+  command = "bash ../tool/compile_tool/compile.sh"
   deps = []
 
   args = [
     "-o",
     "$root_build_dir",
   ]
-   print(target_out_dir)
-   print(target_gen_dir)
-   print(target_name)
-   print(target_out_dir)
-   print(root_gen_dir)
-   print(root_out_dir)
+
   outputs = [ "$root_build_dir/thirdparty/tzdata/output/tzdata" ]
 }
 
