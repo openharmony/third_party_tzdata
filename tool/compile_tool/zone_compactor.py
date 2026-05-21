@@ -129,16 +129,8 @@ def deep(f, stack, last, result_list):
                 stack.pop()
 
 
-def main():
-    setup_file_path = r"C:\Users\Administrator\Desktop\iana\setup"
-    data_dir = r"C:\Users\Administrator\Desktop\iana\tzdata2026b\posix"
-    output_dir = r"C:\Users\Administrator\Desktop\iana\tzdata2026b\output"
-    tzdata_version = "tzdata2026b"
-    ZoneCompactor(setup_file_path, data_dir, output_dir, tzdata_version)
-
-
 if __name__ == '__main__':
     if len(sys.argv) == 5:
         ZoneCompactor(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
     else:
-        main()
+        print("input args less then 5!")
