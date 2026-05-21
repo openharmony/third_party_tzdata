@@ -86,8 +86,11 @@ class ZoneCompactor:
                 if len(zone_name) >= MAXNAME:
                     raise RuntimeError(f"zone filename too long: {len(zone_name)}")
                 f.write(self._to_ascii(bytearray(MAXNAME), zone_name))
-                f.write(struct.pack('>i', offsets[zone_name]))
-                f.write(struct.pack('>i', lengths[zone_name]))
+                offset = offsets.get(zone_name, -1)
+                length = lengths.get(zone_name, -1)
+                if offset != -1 and length != -1:
+                    f.write(struct.pack('>i', offset))
+                    f.write(struct.pack('>i', length))
 
             data_offset = f.tell()
             f.write(all_data)
@@ -102,10 +105,10 @@ class ZoneCompactor:
 
     @staticmethod
     def _to_ascii(dst, src):
-        for i in range(len(src)):
-            if ord(src[i]) > ord('~'):
+        for i, character in enumerate(src):
+            if ord(character) > ord('~'):
                 raise RuntimeError(f"non-ASCII string: {src}")
-            dst[i] = ord(src[i])
+            dst[i] = ord(character)
         return dst
 
 
