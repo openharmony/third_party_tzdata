@@ -9,7 +9,7 @@
     },
     "dirs": {},
     "scripts": {},
-    "licensePath": "LICENSE",
+    "licensePath": "data/iana/LICENSE",
     "component": {
         "name": "tzdata",
         "subsystem": "thirdparty",
