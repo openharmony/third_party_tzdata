@@ -29,7 +29,7 @@ do
         ;;
     esac
 done
-echo "zdd--@@:"${tool_bin_dir}
+echo "tool_bin_dir--@@:"${tool_bin_dir}
 make -C ${iana_path}
 mkdir -p ${zic_path}
 mkdir -p ${posix_path}
