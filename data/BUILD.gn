@@ -13,15 +13,29 @@
 
 import("//build/ohos.gni")
 
+action("gen_tzdata") {
+  script = "../tool/compile_tool/compile.sh"
+  sources = [ "//third_party/tzdata/tool/compile_tool/compile.sh" ]
+  deps = []
+
+  args = [
+    "-o",
+    "$root_build_dir",
+  ]
+
+  outputs = [ "$root_build_dir/thirdparty/tzdata/output/tzdata" ]
+}
+
 ohos_prebuilt_etc("iana_tzdata") {
-  source = "//third_party/tzdata/data/prebuild/posix/tzdata"
+  source = "$root_build_dir/thirdparty/tzdata/output/tzdata"
+  deps = [ ":gen_tzdata" ]
   module_install_dir = "etc/zoneinfo"
   part_name = "tzdata"
   subsystem_name = "thirdparty"
 }
 
 ohos_prebuilt_etc("timezone_list_cfg") {
-  source = "//third_party/tzdata/data/prebuild/posix/timezone_list.cfg"
+  source = "//third_party/tzdata/data/prebuild/normal/timezone_list.cfg"
   module_install_dir = "etc/zoneinfo"
   part_name = "tzdata"
   subsystem_name = "thirdparty"
