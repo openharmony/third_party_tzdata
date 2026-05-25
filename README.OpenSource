@@ -4,6 +4,7 @@
     "License": "Public Domain",
     "License File": "data/iana/LICENSE",
     "Version Number": "2025b",
+    "owner": "sunyaozu",
     "Upstream URL": "https://github.com/eggert/tz",
     "Description": "The Time Zone Database (often called tz or zoneinfo) contains code and data that represent the history of local time for many representative locations around the globe."
   }
