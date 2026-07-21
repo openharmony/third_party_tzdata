@@ -48,6 +48,6 @@ output_path=${script_path}/../../../../${tool_bin_dir}/thirdparty/tzdata/output
 echo ${output_path}
 mkdir "${script_path}/../../data/prebuild/posix/output"
 echo 'compile done'
-python3 ${script_path}/zone_compactor.py "${script_path}/../../data/prebuild/normal/timezone_list.cfg" ${posix_path} "${output_path}" "tzdata2026b"
+python3 ${script_path}/zone_compactor.py "${script_path}/../../data/prebuild/normal/timezone_list.cfg" ${posix_path} "${output_path}" "tzdata2026c"
 echo 'package done'
 exit 0
